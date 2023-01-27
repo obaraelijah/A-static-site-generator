@@ -33,3 +33,8 @@ def generate_site(input_folder, output_folder):
     """REndering templates with thei respective titles
     """
     output = template.render(title = name, content = html)
+    
+    """writing outcome to the output folder
+    """
+    with open(output_folder + '/' + name + '.html', 'w') as f:
+        f.write(output)
