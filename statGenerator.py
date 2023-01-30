@@ -39,4 +39,3 @@ def generate_site(input_folder, output_folder):
     with open(output_folder + '/' + name + '.html', 'w') as f:
         f.write(output)
         
-generate_site("input", "output")
