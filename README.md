@@ -2,7 +2,7 @@
 
 This is a simple static-site generator implemented in Python. It takes a folder containing Markdown pages and produces a website.
 ## Features
-- Convert Markdown files to HTML pages.
+- Converts Markdown files to HTML pages.
 
 - Use different templates for different types of pages eg. homepage.
 
